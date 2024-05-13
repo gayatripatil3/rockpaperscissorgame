@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="20_2_game.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container1">
+        <div class="heading_div">
+            <div class="h11"><h1>Welcome to the Game!!!</h1></div>
+            <div class="h11"><h2>ROCK, PAPER, SCISSORS</h2></div>
+           
+        </div>
+        <div class="lower_body">
+            <div class="result_screen"><div id="inner_result_screen_id"><span id="result_id"></span></div></div>
+            <div class="item_div" id="item_div_id">
+                <div class="items" id="item1" onclick="clicked('ROCK')">ROCK</div>
+                <div class="items" id="item2" onclick="clicked('PAPER')">PAPER</div>
+                <div class="items" id="item3" onclick="clicked('SCISSORS')">SCISSORS</div>
+            </div>
+            <div class="comp_choice_div">
+                <p>Your Choose : <span id="choice"></span></p>
+                <p>Computer's Choice : <span id="decision"></span></p>
+            </div>
+            <div class="scores">
+                <div class="score_div" id="user">
+                    <p>User Score</p>
+                    <div class="user_score" id="user_score_id">0</div>
+                </div>
+                <div class="score_div" id="computer">
+                    <p>Computer Score</p>
+                    <div class="comp_score" id="comp_score_id">0</div>
+                </div>
+            </div>
+            <div class="reset">
+                <div class="play_again_div" id="reset_id" onclick="reset()">PLAY AGAIN</div>
+            </div>
+        </div>
+    </div>
+<script src="20_3_game.js"></script>
+</body>
+
+</html>

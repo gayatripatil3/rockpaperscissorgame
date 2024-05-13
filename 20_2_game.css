@@ -1,0 +1,127 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container1{
+    background-color: azure;
+    height: 100vh;
+    display: block;
+    width:100%;
+    border: 1px solid black;;
+}
+.heading_div{
+    display: block;
+    align-self: center;
+    /* border:1px solid red; */
+}
+.h11{
+    display: flex;
+    justify-content: center;
+    color:rgb(8, 171, 225);
+    /* border:1px solid rgb(55, 41, 247); */
+}
+.lower_body{
+    display: block;
+    widows: 100%;;
+}
+.result_screen{
+    display: flex;
+    justify-content: center;
+    
+}
+#inner_result_screen_id{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    background-color: aquamarine;
+    width:50%;
+    border: 3px solid orange;
+    box-shadow: 1px 1px black;
+}
+#result_id{
+    font-size: 40px;
+    color:rgb(9, 113, 239);
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px blue;
+}
+.item_div{
+    display: flex;
+    margin-top: 25px;
+    /* border: 1px solid pink; */
+    justify-content: space-evenly;
+}
+.items{
+    border: 2.5px solid orange;
+    padding:20px;
+    color:blueviolet;
+    font-weight: bold;
+    background-color: rgb(248, 251, 169);
+}
+.items:hover{
+    background-color: rgb(149, 250, 216);
+    cursor: pointer;
+}
+.comp_choice_div{
+    margin-top: 60px;
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.scores{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-evenly;
+}
+.score_div{
+    color: green;
+    margin-top: 20px;
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+}
+.user_score{
+    display: flex;
+    color:orange;
+    text-shadow: 1px  1px black ;
+    font-size: 40px;
+    justify-content: center;
+}
+#choice{
+    color:orange;
+    text-shadow: 1px  1px black ;
+}
+#decision{
+    color:orange;
+    text-shadow: 1px  1px black ;
+}
+.comp_score{
+    display: flex;
+    color:orange;
+    text-shadow: 1px  1px black ;
+    justify-content: center;
+    font-size: 40px;
+}
+.reset{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid orange; */
+    height:100px;
+    justify-content: center;
+}
+.play_again_div{
+    padding:13px 33px;
+    background-color: rgb(0, 196, 69);
+    border:2px solid green ;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.play_again_div:hover{
+background-color: green;
+cursor: pointer;
+border:1px 1px rgb(2, 251, 89);
+}
